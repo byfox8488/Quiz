@@ -1,0 +1,187 @@
+body {
+    background-color: rgb(243, 251, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#introduction {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+}
+p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 1%;
+}
+#ver {
+    display: inline-block;
+    position: absolute;
+    top: 52%;
+    left: 25%;
+    rotate: 90deg;
+    width: 14%;
+}
+#pver {
+    display: inline-block;
+    position: absolute;
+    left: 32%;
+    top: 38%;
+}
+#ver2 {
+    display: inline-block;
+    position: absolute;
+    top: 85.5%;
+    left: 33.5%;
+    rotate: 90deg;
+    width: 14%;
+}
+#pver2 {
+    display: inline-block;
+    position: absolute;
+    left: 40.5%;
+    top: 73%;
+}
+#ver3 {
+    display: inline-block;
+    position: absolute;
+    top: 124%;
+    left: 27%;
+    rotate: 90deg;
+    width: 17%;
+}
+#pver3 {
+    display: inline-block;
+    position: absolute;
+    left: 35%;
+    top: 109%;
+}
+#hr1 {
+    rotate: 90deg;
+    width: 34%;
+    position: absolute;
+    left: 12%;
+    top: 176%;
+}
+#ex2 {
+    position: absolute;
+    top: 149%;
+    left: 30%;
+
+}
+#hr2 {
+    rotate: 90deg;
+    width: 34%;
+    position: absolute;
+    left: 47%;
+    top: 176%;
+}
+#ex3 {
+    position: absolute;
+    top: 149%;
+    left: 65%;
+}
+#mainquiz {
+    position: absolute;
+    top: 208%;
+    left: 2%;
+}
+#foot {
+    position: absolute;
+    top: 446%;
+}
+#test {
+    position: absolute;
+    width: 99%;
+    top: 206%;
+}
+#instruc {
+    font-size: 20px;
+}
+input[type="radio"],label{
+    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-left: 3%;
+    font-size: 20px;
+}
+#quiz {
+    display: block;
+    margin-left: 1%;
+}
+#correc {
+    padding: 10px 15px;
+    background-color: aqua;
+    color: rgb(15, 15, 15);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#correc:hover {
+    transform: scale(1.01);
+}
+#pair {
+    filter: blur(6px);
+    opacity: 0.8;
+    position: absolute;
+    transition: all 1s;
+}
+#pair2 {
+    filter: blur(6px);
+    opacity: 0.8;
+    position: absolute;
+    transition: all 1s;
+}
+#pair3 {
+    filter: blur(6px);
+    opacity: 0.8;
+    position: absolute;
+    transition: all 1s;
+}
+#sumb1 {
+    padding: 15px 30px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(226, 209, 57);
+    transition: all 0.6s;
+}
+#sumb1:hover{
+    transform: scale(1.01);
+}
+#sumb2 {
+    display: none;
+    padding: 15px 30px;
+    position: absolute;
+    left: 60%;
+    top: 100%;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(226, 139, 57);
+    transition: all 0.6s;
+}
+#reset {
+    position: absolute;
+    left: 75%;
+    top: 103%;
+    padding: 10px 25px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(68, 118, 255);
+    transition: all 0.6s;
+}
+#fin1 {
+    position: absolute;
+    left: 0%;
+    top: 102%;
+    width: 99%;
+    font-size: 25px;
+    font-weight: bold;
+}

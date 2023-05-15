@@ -1,0 +1,131 @@
+body {
+    background-color: antiquewhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#introduction {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+}
+h1 {
+    font-size: 25px;
+}
+p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 1%;
+}
+#correc {
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 45%;
+    top: 162%;
+}
+#finger {
+    position: absolute;
+    left: 40%;
+    top: 162%;
+    rotate: -90deg;
+}
+#pair {
+    display: block;
+    left: 10%;
+    top: 173%;
+    height: 60%;
+    width: 40%;
+    filter: blur(15px);
+    opacity: 0.8;
+    position: absolute;
+    transition: all 1s;
+}
+#correc {
+    padding: 10px 15px;
+    background-color: aqua;
+    color: rgb(15, 15, 15);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#correc:hover {
+    transform: scale(1.01);
+}
+#correction {
+    display: block;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+#mainquiz {
+    display: block;
+    position: absolute;
+    top: 240%;
+    left: 3%;
+}
+#instruc {
+    font-size: 20px;
+}
+input[type="radio"],label{
+    margin-bottom: 2%;
+    margin-top: 1%;
+    font-size: 20px;
+}
+#sumb1 {
+    padding: 15px 30px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(226, 209, 57);
+    transition: all 0.6s;
+}
+#sumb1:hover{
+    transform: scale(1.01);
+}
+#sumb2 {
+    display: none;
+    padding: 15px 30px;
+    position: absolute;
+    left: 60%;
+    top: 100%;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(226, 139, 57);
+    transition: all 0.6s;
+}
+#reset {
+    position: absolute;
+    left: 92%;
+    top: 102.5%;
+    padding: 10px 25px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(68, 118, 255);
+    transition: all 0.6s;
+}
+#fin1 {
+    position: absolute;
+    left: 0%;
+    top: 102%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+#foot {
+    position: absolute;
+    top: 604%;
+    left: 3%;
+}
+#start {
+    display: block;
+    margin-left: 2%;
+}

@@ -1,0 +1,211 @@
+body {
+    background-size: cover;
+    background-color: rgb(226, 255, 249);
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+}
+#home {
+    text-decoration: none;
+    padding: 15px 30px;
+    position: absolute;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(100, 198, 255);
+    transition: all 0.6s;
+}
+#introduction {
+    display: block;
+    margin-left: 1%;
+}
+#title {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:underline;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+#foot {
+    display: block;
+    position: absolute;
+    top: 330%;
+    height: 20%;
+}
+#sumb1 {
+    padding: 15px 30px;
+    position: absolute;
+    left: 170%;
+    top: 100%;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(226, 209, 57);
+    transition: all 0.6s;
+}
+#sumb1:hover{
+    transform: scale(1.01);
+}
+#sumb2 {
+    display: none;
+    padding: 15px 30px;
+    position: absolute;
+    left: 200%;
+    top: 100%;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(226, 139, 57);
+    transition: all 0.6s;
+}
+li {
+    font-size: large;
+    margin-bottom: 15px;
+}
+#examp {
+    margin-left: 270px;
+}
+#types {
+    margin-left: 300px;
+}
+#application {
+    display: block;
+    margin-left: 3%;
+}
+#mainquiz {
+    display: block;
+    margin-left: 3%;
+}
+#quiz {
+    margin-left: 4%;
+}
+table {
+    position: relative;
+    left: 50px;
+    box-shadow: 2px 3px 8.5px black;
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    width: 40%;
+    margin-left: 30px;
+}
+#check {
+    padding: 15px 30px;
+    margin-left: 60%;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(226, 209, 57);
+    transition: all 0.6s;
+}
+tr,td {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    border: 3px solid black;
+}
+.app {
+    width: 80%;
+    padding: 5px 5px;
+}
+.imquiz {
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+input[type=radio]{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+#quiz {
+    position: absolute;
+    left: 40px;
+}
+hr {
+    width: 100%;
+}
+#check1 {
+    position: absolute;
+    top: 10%;
+    left: 120%;
+    width: 100%;
+}
+#Faux1 {
+    position: absolute;
+    top: 5%;
+    left: 120%;
+    width: 100%;
+}
+#check2 {
+    position: absolute;
+    top: 48%;
+    left: 120%;
+    width: 100%;
+}
+#Faux2 {
+    position: absolute;
+    top: 42%;
+    left: 120%;
+    width: 100%;
+}
+#check3 {
+    position: absolute;
+    top: 29%;
+    left: 120%;
+    width: 140%;
+}
+#Faux3 {
+    position: absolute;
+    top: 23%;
+    left: 120%;
+    width: 100%;
+}
+#check4 {
+    position: absolute;
+    top: 68%;
+    left: 120%;
+    width: 140%;
+}
+#Faux4 {
+    position: absolute;
+    top: 63%;
+    left: 120%;
+    width: 100%;
+}
+#check5 {
+    position: absolute;
+    top: 85%;
+    left: 120%;
+    width: 140%;
+}
+#Faux5 {
+    position: absolute;
+    top: 80%;
+    left: 120%;
+    width: 100%;
+}
+#fin1 {
+    position: absolute;
+    left: 0%;
+    top: 107%;
+    width: 200%;
+    font-size: 25px;
+    font-weight: bold;
+}
+#reset {
+    position: absolute;
+    left: 200%;
+    top: 107%;
+    padding: 10px 25px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(68, 118, 255);
+    transition: all 0.6s;
+}
